@@ -11,14 +11,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="105dp">
 
         <TextView
             android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:text="Имя пользователя"
+            android:text="@string/text_username"
             android:textAlignment="center"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -30,8 +30,8 @@
             android:layout_marginStart="99dp"
             android:layout_marginEnd="99dp"
             android:ems="10"
-            android:text=""
             android:inputType="textPersonName"
+            android:text="@string/field_usrename"
             android:textAlignment="viewStart"
             android:textColor="@android:color/black"
             android:textSize="24sp"
@@ -41,7 +41,7 @@
             android:id="@+id/username2"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:text="Электронная почта"
+            android:text="@string/text_email"
             android:textAlignment="center"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -53,8 +53,8 @@
             android:layout_marginStart="99dp"
             android:layout_marginEnd="99dp"
             android:ems="10"
-            android:text=""
             android:inputType="textPersonName"
+            android:text="@string/field_email"
             android:textAlignment="viewStart"
             android:textColor="@android:color/black"
             android:textSize="24sp"
@@ -64,13 +64,13 @@
             android:id="@+id/okbutton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ОК" />
+            android:text="@string/ok_button" />
 
         <Button
             android:id="@+id/clearbutton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ОЧИСТИТЬ" />
+            android:text="@string/clear_button" />
 
         <TextView
             android:id="@+id/textView2"

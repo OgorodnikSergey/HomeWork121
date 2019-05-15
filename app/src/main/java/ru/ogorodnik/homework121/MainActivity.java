@@ -8,11 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import java.text.BreakIterator;
-
 public class MainActivity extends AppCompatActivity {
-
-    private TextView textView2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
