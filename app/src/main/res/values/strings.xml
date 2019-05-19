@@ -6,5 +6,9 @@
     <string name="field_email" />
     <string name="ok_button">OK</string>
     <string name="clear_button">ОЧИСТИТЬ</string>
+    <string name="hintName">Имя</string>
+    <string name="emailHint">Почта</string>
+    <string name="text1">Подписка на рассылку успешно оформлена для пользователя </string>
+    <string name="text2"> на электронный адрес </string>
 
 </resources>

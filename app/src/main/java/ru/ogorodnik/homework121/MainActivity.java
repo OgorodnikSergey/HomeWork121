@@ -25,8 +25,9 @@ public class MainActivity extends AppCompatActivity {
         buttonOk.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    exampleText.setText("Подписка на рассылку успешно оформлена для пользователя " + userNameText.getText() +
-                            " на электронный адрес " + userMailText.getText());
+                    String str1 = String.format(getString(R.string.text1));
+                    String str2 = String.format(getString(R.string.text2));
+                    exampleText.setText(str1 + " " + userNameText.getText() + " " + str2 + " " + userMailText.getText());
                 }
         });
         // Нажимаем на кнопку ОЧИСТИТЬ
@@ -34,7 +35,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 exampleText.setText("");
+                userMailText.setText("");
+                userNameText.setText("");
             }
         });
+
     }
 }
