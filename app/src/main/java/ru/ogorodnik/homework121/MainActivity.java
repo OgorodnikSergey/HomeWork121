@@ -25,10 +25,10 @@ public class MainActivity extends AppCompatActivity {
         buttonOk.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    //String str1 = getString(R.string.text1);
+                   // String str1 = getString(R.string.text1, userNameText.getText(), userMailText.getText());
                    // String str2 = getString(R.string.text2);
                    // exampleText.setText(str1 + " " + userNameText.getText() + " " + str2 + " " + userMailText.getText());
-                    exampleText.setText(getString(R.string.text1)+ " " + userNameText.getText() + " " + getString(R.string.text2)+ " " + userMailText.getText());
+                    exampleText.setText(getString(R.string.text1, userNameText.getText(), userMailText.getText()));
                 }
         });
         // Нажимаем на кнопку ОЧИСТИТЬ

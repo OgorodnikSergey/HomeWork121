@@ -8,7 +8,6 @@
     <string name="clear_button">ОЧИСТИТЬ</string>
     <string name="hintName">Имя</string>
     <string name="emailHint">Почта</string>
-    <string name="text1">Подписка на рассылку успешно оформлена для пользователя </string>
-    <string name="text2"> на электронный адрес </string>
+    <string name="text1">Подписка на рассылку успешно оформлена для пользователя %1$s на электронный адрес %2$s </string>
 
 </resources>
